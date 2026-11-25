@@ -190,9 +190,9 @@ actual_deposit = st.sidebar.number_input(
     label_visibility="collapsed"
 )
 
-target_monthly_payment = st.sidebar.number_input("What monthly payment can you afford? (£)", value=1000, step=100)
-mortgage_years = st.sidebar.number_input("Length of mortgage (years)", value=14, step=1)
-interest_rate = st.sidebar.number_input("Interest rate (%)", value=4.8, step=0.1)
+target_monthly_payment = st.sidebar.number_input("What monthly payment can you afford? (£)", value=1000, step=50)
+mortgage_years = st.sidebar.number_input("Length of mortgage (years)", value=12, step=1)
+interest_rate = st.sidebar.number_input("Interest rate (%)", value=5.0, step=0.1)
 
 
 # --- Final Calculations ---
