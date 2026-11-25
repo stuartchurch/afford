@@ -90,7 +90,7 @@ def delete_cost(item_id):
 # --- Sidebar Inputs ---
 
 st.sidebar.header("1. Sale of Current House")
-sale_price = st.sidebar.number_input("House sale value (£)", value=850000, step=10000)
+sale_price = st.sidebar.number_input("House sale value (£)", value=805000, step=5000)
 mortgage_left = st.sidebar.number_input("Outstanding mortgage (£)", value=220000, step=5000)
 early_repayment_penalty = st.sidebar.number_input("Early repayment penalty (£)", value=0.0, step=100.0)
 
